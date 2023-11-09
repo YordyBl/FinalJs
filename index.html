@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./clima.css">
+    <title>Almacen</title>
+</head>
+
+<body>
+    <div class="div-titulo">
+        <h1>Registro de Almacen</h1>
+    </div>
+    <div class="contenedor">
+        <div id="div-formulario">
+            <h2>Formulario de registro</h2>
+
+            <form action="#" id="formulario">
+                <input type="text" id="id" placeholder="Ingrese el identificador">
+                <input type="text" id="nombre" placeholder="Ingrese un nombre">
+                <input type="text" id="precio" placeholder="Ingrese el precio">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+
+        </div>
+        <div id="div-listado">
+            <h2>Listado de productos</h2>
+            <div id="div-productos">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="clima">
+        <div id="container">
+            <div id="location"></div>
+            <div id="icon"></div>
+            <div id="descripcion"></div>
+            <div id="temp"></div>
+            <div id="tempmax"></div>
+            <div id="tempmin"></div>
+
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+    <script src="./api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
